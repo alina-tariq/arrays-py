@@ -1,6 +1,3 @@
-# Alina Tariq
-# 500989574
-
 arr = [9, 13, 21, 4, 11, 7, 1, 3]
 size = len(arr)//2 # determines midway point
 newarray = arr[size:] # adds second half of original array to new array

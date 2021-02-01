@@ -1,6 +1,3 @@
-# Alina Tariq
-# 500989574
-
 arr = [1, 4, 14, 2, 1, 3, 5, 6, 23]
 rearr = [] # rearranged array
 for num in arr:

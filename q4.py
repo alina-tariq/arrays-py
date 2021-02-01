@@ -1,6 +1,3 @@
-# Alina Tariq
-# 500989574
-
 import ctypes # provides low-level arrays
 
 class DynamicArray:
@@ -21,7 +18,7 @@ class DynamicArray:
         if k < 0 and abs(k) <= self._n: # within negative bounds
             # changes negative index to positive index equivalent b/c self._capacity variable causes
             # issues (i.e. the empty capacity space(s) at the end can be called with negative indices)
-            return self._A[self._n + k] 
+            return self._A[self._n + k]
         elif self._n < abs(k) or k == self._n: # out of bounds
             raise IndexError('invalid index')
         return self._A[k] # retrieve from array

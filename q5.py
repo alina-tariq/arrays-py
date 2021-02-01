@@ -1,7 +1,4 @@
-# Alina Tariq
-# 500989574
-
-import ctypes # provides low-level arrays
+mport ctypes # provides low-level arrays
 
 class DynamicArray:
     """A dynamic array class akin to a simplified Python list."""
@@ -52,7 +49,7 @@ class DynamicArray:
             self._capacity = c # sets new capacity
             # adds pre index k elements to their original position and shifts post k elements to the right
             for j in range (self._n):
-                B[j if j < k else (j+1)] = self._A[j] 
+                B[j if j < k else (j+1)] = self._A[j]
             self._A = B
         else:
             # shifts all post index k elements to the right
